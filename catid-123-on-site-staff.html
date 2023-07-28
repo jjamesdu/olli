@@ -1,10 +1,8 @@
+<!-- https://olli.du.edu/duolli/course/course.aspx?catId=123 -->
 
 <style>
-
-
-
-      /* CSS Grid layout */
-      .grid-container {
+    /* CSS Grid layout */
+    .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         /* Two equal columns */
@@ -73,19 +71,21 @@
             width: 50%;
             /* Adjust the width for smaller screens */
         }
+
         .nested-column2 p {
             text-align: center;
             font-size: 18px !important;
             line-height: 80%;
         }
     }
-
 </style>
 
 <h2>page header</h2>
 
 <div class="grid-container">
     <div class="main-column">
+
+        <!-- start nested columns -->
         <div class="nested-columns">
             <div class="nested-column1">
                 <img class="headshot" src="https://olli.du.edu/duolli/configuration/duolli/img/jackienew723.JPG">
@@ -94,11 +94,30 @@
             <div class="nested-column2">
                 <p>
                     Jacqueline Wyant
-                <br>
+                    <br>
                     Executive Director
-               <br>
+                    <br>
                     <a href="mailto:jacqueline.wyant@du.edu">
                         jacqueline.wyant@du.edu
+                    </a>
+                </p>
+            </div><!--- end nested-column2 -->
+        </div><!-- end nested-columns -->
+
+        <!-- start nested columns -->
+        <div class="nested-columns">
+            <div class="nested-column1">
+                <img class="headshot" src="https:via.placeholder.com/200">
+            </div><!--- end nested-column1 -->
+
+            <div class="nested-column2">
+                <p>
+                    Kim Penoyer
+                    <br>
+                    Operations Coordinator
+                    <br>
+                    <a href="mailto:kimberly.penoyer@du.edu">
+                        kimberly.penoyer@du.edu
                     </a>
                 </p>
             </div><!--- end nested-column2 -->
@@ -108,21 +127,20 @@
 
     <div class="main-column">
 
+        <!-- start nested columns -->
         <div class="nested-columns">
             <div class="nested-column1">
-                <img class="headshot" src="https://via.placeholder.com/200">
+                <img class="headshot" src="https:via.placeholder.com/200">
             </div><!--- end nested-column1 -->
 
             <div class="nested-column2">
                 <p>
-                    Exteremely lon name with lots of middle names
-                </p>
-                <p>
-                    Staff Title that is really long and confusing
-                </p>
-                <p>
-                    <a href="mailto:">
-                        very.long.email@du.edu
+                    Dave Johnson
+                    <br>
+                    Support Specialist 
+                    <br>
+                    <a href="mailto: david.k.johnson@du.edu ">
+                        david.k.johnson@du.edu 
                     </a>
                 </p>
             </div><!--- end nested-column2 -->
