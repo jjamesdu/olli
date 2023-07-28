@@ -18,6 +18,7 @@
         /* Specific widths for nested columns */
         gap: 20px;
         /* Gap between nested columns */
+        padding-top: 30px
     }
 
     .nested-column1,
@@ -68,6 +69,7 @@
             width: 50%;
             /* Adjust the width for smaller screens */
         }
+
         .nested-column2 p {
             text-align: center;
             font-size: 18px !important;
