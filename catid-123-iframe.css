@@ -1,17 +1,17 @@
 .iframe-container {
-    width: 100% !important; /* Set the width of the iframe container */
-    height: 100% !important; /* Set the height of the iframe container */
-    overflow: hidden !important; /* Hide the scrollbars */
+  position: relative;
+  width: 100%;
+  overflow: hidden;
   }
 
   .iframe-container #github{
-    width: 100% !important;
-    height: 100% !important;
-    border: none !important; /* Remove the iframe border */
+    width: 100%;
+    min-height: 100%; /* Set a minimum height to prevent the iframe from collapsing when the content is empty */
+    border: none; /* Remove border around the iframe, if any */
   }
 
-  @media (max-width: 800px) {
+  /* @media (max-width: 800px) {
     .iframe-container {
         height: 100% !important;
     }
-  }
+  } */
