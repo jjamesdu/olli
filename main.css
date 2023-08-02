@@ -2,11 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
 
 
-* {
-    font-family: 'Merriweather', serif;
-    
+body {
+    font-family: 'Merriweather', serif !important;   
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif !important;
 }
