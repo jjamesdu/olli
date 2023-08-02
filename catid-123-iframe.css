@@ -1,6 +1,6 @@
 .iframe-container {
     width: 100% !important; /* Set the width of the iframe container */
-    height:1200px !important; /* Set the height of the iframe container */
+    height:100% !important; /* Set the height of the iframe container */
     overflow: hidden !important; /* Hide the scrollbars */
   }
 
