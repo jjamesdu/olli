@@ -73,6 +73,6 @@
         .nested-column2 p {
             text-align: center;
             font-size: 18px !important;
-            line-height: 80%;
+            line-height: 120% !important;
         }
     }
